@@ -7,7 +7,7 @@ public class CsvLineParserTests
     public void ShouldParseValidLine()
     {
         //Arrange
-        string[] csvLines = { "Cappuccino;27/10/2022 8:06:04 AM" };
+        string[] csvLines = { "Cappuccino;10/27/2022 8:06:04 AM" };
 
         //Act
         var machineDataItems = CsvLineParser.Parse(csvLines);
